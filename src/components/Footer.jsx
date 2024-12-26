@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({ searchQuery}) => {
   return (
     <footer id="Footer" className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-300 py-12">
       <div className="container mx-auto px-6 lg:px-20">
@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Section 2: Social Media Links */}
           <div className="flex justify-center md:justify-center space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Nagendra-Yaparala"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-yellow-400 transition-colors"
@@ -39,7 +39,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/nagendra76732"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-yellow-400 transition-colors"
@@ -48,7 +48,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/yaparalanagendra/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-yellow-400 transition-colors"

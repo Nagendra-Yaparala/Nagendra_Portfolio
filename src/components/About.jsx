@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const About = () => {
+const About = ({ searchQuery}) => {
   return (
     <div id='about' className="bg-gray-900 text-white py-20 px-5 md:px-20">
       <div className="max-w-4xl mx-auto space-y-6">

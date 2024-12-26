@@ -7,17 +7,23 @@ import Experiance from './components/Experiance'
 import MySkills from './components/Myskills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useState } from 'react';
+import Projects from './components/Projects';
 
 function App() {
+
+  const [searchQuery,setSearchQuery] = useState("");
+
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Experiance/>
-      <MySkills/>
-      <Contact/>
-      <Footer/>
+      <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>
+      <Home  searchQuery={searchQuery}/>
+      <About  searchQuery={searchQuery}/>
+      <Experiance  searchQuery={searchQuery}/>
+      <MySkills  searchQuery={searchQuery}/>
+      <Projects/>
+      <Contact  searchQuery={searchQuery}/>
+      <Footer  searchQuery={searchQuery}/>
     </div>
   );
 }

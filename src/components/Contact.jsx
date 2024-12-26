@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact = ({ searchQuery}) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -73,7 +73,7 @@ const Contact = () => {
               <i className="fab fa-linkedin fa-lg"></i> LinkedIn
             </motion.a>
             <motion.a
-              href="https://github.com/"
+              href="https://github.com/Nagendra-Yaparala"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-200 transition duration-300"
@@ -82,7 +82,7 @@ const Contact = () => {
               <i className="fab fa-github fa-lg"></i> GitHub
             </motion.a>
             <motion.a
-              href="https://twitter.com/"
+              href="https://x.com/nagendra76732"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition duration-300"

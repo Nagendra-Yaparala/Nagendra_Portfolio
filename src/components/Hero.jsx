@@ -3,7 +3,8 @@ import { Button } from "antd";
 import { motion } from "framer-motion";
 import mainImage from '../assets/top.png'
 
-const Hero = () => {
+const Hero = ({ searchQuery}) => {
+  console.log(searchQuery);
   return (
     <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white py-20 px-5 md:px-20 relative overflow-hidden">
       {/* Floating Bubbles */}

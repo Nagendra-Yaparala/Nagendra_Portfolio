@@ -44,9 +44,33 @@ const skills = [
     image: "https://img.icons8.com/color/144/bootstrap.png",
     description: "Popular CSS framework for developing responsive and mobile-first websites.",
   },
+  {
+    id: 8,
+    name: "SQL",
+    image: "https://img.icons8.com/color/144/sql.png", // Updated image URL for SQL
+    description: "Language for managing and querying databases.",
+  },
+  {
+    id: 9,
+    name: "Java",
+    image: "https://img.icons8.com/color/144/java-coffee-cup-logo--v1.png",
+    description: "High-level programming language used for building robust and scalable applications.",
+  },
+  {
+    id: 10,
+    name: "TypeScript",
+    image: "https://img.icons8.com/color/144/typescript.png",
+    description: "Superset of JavaScript that adds static typing and enhances development.",
+  },
+  {
+    id: 11,
+    name: "Node.js",
+    image: "https://img.icons8.com/fluency/144/node-js.png",
+    description: "JavaScript runtime for building scalable server-side applications.",
+  },
 ];
 
-const MySkills = () => {
+const MySkills = ({ searchQuery}) => {
   return (
     <div id="my-skills" className="bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white py-20 px-6 md:px-20">
       <h1 className="text-4xl font-extrabold text-center mb-12 text-yellow-300">

@@ -3,10 +3,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Experience = () => {
+const Experience = ({ searchQuery}) => {
   const experiences = [
     {
-      company: "LBYH (Learning Beyond With Your Horizon)",
+      company: "LBYH",
+      fullName:'Learning Beyond with your Horizon',
       role: "Frontend Developer",
       duration: "3 months",
       description: `
@@ -16,6 +17,7 @@ const Experience = () => {
     },
     {
       company: "goCosmic.ai",
+      fullName:'',
       role: "Full Stack Developer Intern",
       duration: "3 months",
       description: `
@@ -26,6 +28,7 @@ const Experience = () => {
     },
     {
       company: "Bytup",
+      fullName:'',
       role: "Frontend Developer (Freelancer)",
       duration: "Project-based",
       description: `
@@ -34,7 +37,8 @@ const Experience = () => {
       `,
     },
     {
-      company: "AI ACME Solutions",
+      company: "AI ACME",
+      fullName:'',
       role: "UI/UX Developer (Freelancer)",
       duration: "Project-based",
       description: `
@@ -44,6 +48,7 @@ const Experience = () => {
     },
     {
       company: "Personal Projects",
+      fullName:'',
       role: "Frontend Developer",
       duration: "Ongoing",
       description: `
