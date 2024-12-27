@@ -71,7 +71,7 @@ const Footer = ({ searchQuery}) => {
         {/* Divider and Footer Note */}
         <div className="mt-8 border-t border-gray-700 pt-4">
           <p className="text-center text-xs text-gray-500">
-            Built with Next.js, Tailwind CSS, and a touch of creativity.
+            Built with React.js, Tailwind CSS, and a touch of creativity.
           </p>
         </div>
       </div>

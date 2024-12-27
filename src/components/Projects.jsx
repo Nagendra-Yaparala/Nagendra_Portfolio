@@ -25,7 +25,7 @@ const Projects = () => {
       image: rara,
       link: "https://nagendra-yaparala.github.io/Ecom_Raraa/",
     },
-    {
+   /*  {
         id: 3,
         name: "Temperature Converter",
         description:
@@ -33,15 +33,17 @@ const Projects = () => {
         image: temperatureConverterImage, // Replace with the actual image variable or URL
         link: "https://nagendra-yaparala.github.io/Temperature_converter/",
       }
-      ,
+      , */
       {
-        id: 4,
+        id: 3,
         name: "Student Portal Website",
         description:
           "A comprehensive student portal allowing users to access assignments, grades, schedules, and resources. Built with React.js, Tailwind CSS, and Firebase for real-time updates and secure authentication.",
         image: studentPortal, // Replace with the actual image variable or URL
         link: "https://example.com/student-portal",
-      }
+      },
+      
+      
       
   ];
 
